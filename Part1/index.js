@@ -62,12 +62,6 @@ if (topLeft !== undefined && topLeft === topCenter && topLeft === topRight) {
     return;
   }
 
- /*reset function () {
-     if(let i = 0; i <  )
-     document.getElementById() == ""
- }
-
-*/
 
 
 
@@ -81,3 +75,21 @@ if (boardFull === true) {
     alert("Cat's game, there is no winner");
 }
 }
+
+function reset () {
+  board.splice(0)
+}
+
+const squares = document.getElementsByTagName('td')
+
+
+for(let i = 0; i <squares.length; i++)
+  squares[i].innerText = ''
+
+const playerSpan = document.getElementById('player')
+
+playerSpan.innerText = 'X'
+
+
+
+

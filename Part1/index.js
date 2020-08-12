@@ -62,9 +62,12 @@ if (topLeft !== undefined && topLeft === topCenter && topLeft === topRight) {
     return;
   }
 
- reset function () {}
+ /*reset function () {
+     if(let i = 0; i <  )
+     document.getElementById() == ""
+ }
 
-
+*/
 
 
 
